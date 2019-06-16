@@ -26,7 +26,7 @@
             window.setInterval(() => {
                 element.scrollTo({top: this.yPos, behavior: "smooth"});
                 this.yPos += this.speed;
-            }, 10);
+            }, 50);
         },
         methods: {
             loadMore() {
