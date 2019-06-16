@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+require('vue');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ let mix = require('laravel-mix');
 
 
 mix.js('src/app.js', 'dist/');
+mix.extract(['vue']);
 mix.sass('src/app.scss', 'dist/');
 
 // Full API

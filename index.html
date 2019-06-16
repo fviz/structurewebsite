@@ -7,18 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Design by Form Project</title>
     <link rel="stylesheet" href="dist/app.css">
+    <script src="dist/manifest.js"></script>
+    <script src="dist/vendor.js"></script>
     <script src="dist/app.js"></script>
 </head>
 <body>
 
-<div id="container">
-    <ul id="infiniteList1" class="infiniteList">
+<div id="app">
 
-    </ul>
+    <scrollcolumn :images="imagesArray" :speed="1"></scrollcolumn>
+    <scrollcolumn :images="imagesArray" :speed="2"></scrollcolumn>
+    <scrollcolumn :images="imagesArray" :speed="1"></scrollcolumn>
 
-    <ul id="infiniteList2" class="infiniteList">
-
-    </ul>
 </div>
 
 
